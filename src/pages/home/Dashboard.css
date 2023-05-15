@@ -1,0 +1,14 @@
+section.home {
+    height: calc(100vh - 61px - 50px);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 25px;
+}
+
+section.home div { 
+    background-color: var(--cl-not-black);
+    padding: 25px;
+    border-radius: 20px;
+}

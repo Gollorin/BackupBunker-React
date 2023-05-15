@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --cl-white: #FFF;
+  --cl-black: #26292B;
+  --cl-not-black: #2E3239;
+  --cl-blue: #5F7ADB;
+  --cl-l-blue: #A2B2EE;
+  --cl-red: #ee3e27;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #252525;
+  color: var(--cl-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.none, .for-mob {
+  display: none;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cl-white);
+}
+
+button:hover, a:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+section.body {
+  padding: 25px;
+}
+
+@media screen and (max-width: 750px){
+  .no-comp {
+    display: none;
+  }
+
+  .for-mob {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: grey  ;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cl-not-black);
+  border-radius: 4px;
+}
+
+div.resolution {
+  background-color: var(--cl-black);
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  text-align: center;
+}
+
+@media screen and (min-width: 450px) {
+  div.resolution {
+    display: none;
+  }
+}
+
+div.console {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: var(--cl-not-black);
+}
+
+div.console h5.msg {
+  margin-bottom: 5px;
+}
+
+button.rd {
+  background-color: var(--cl-red);
+  color: var(--cl-white);
+}

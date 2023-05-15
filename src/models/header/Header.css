@@ -1,0 +1,21 @@
+header {
+    min-height: 60px;
+    border-bottom: 1px solid var(--cl-white);
+
+    width: calc(100vw - 220px - 50px);
+    padding: 0 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1.title {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 750px){
+    header {
+        width: calc(100vw - 90px - 50px);
+    }
+}

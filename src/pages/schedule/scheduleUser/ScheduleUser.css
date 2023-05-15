@@ -1,0 +1,16 @@
+div.menu-sch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.menu-sch div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h2.subtitle span {
+    color: var(--cl-blue);
+}

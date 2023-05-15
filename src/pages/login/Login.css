@@ -1,0 +1,70 @@
+main.login {
+    align-items: center;
+    justify-content: center;
+}
+
+main.login form {
+    margin: -400px;
+    padding: 20px 30px 30px 30px;
+    min-width: 250px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+
+    border-radius: 20px;
+    border: 1px solid var(--cl-white);
+}
+
+
+main.login form label {
+    width: 100%;
+}
+
+main.login form label h3 {
+    margin-bottom: 10px;
+}
+
+main.login form button {
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    outline: 2px solid var(--cl-white);
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    color: var(--cl-white);
+}
+
+option {
+    background-color: var(--cl-not-dark);
+    color: black;
+}
+
+input:focus {
+    outline-color: var(--cl-blue);
+}
+
+button.btn {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button.bl {
+    background-color: var(--cl-blue);
+    color: var(--cl-white);
+}
+
+.warn {
+    color: var(--cl-red);
+}

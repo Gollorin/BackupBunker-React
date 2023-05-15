@@ -1,0 +1,45 @@
+form.new-user {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 25px;
+
+    margin-top: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid var(--cl-white);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--cl-not-black);
+}
+
+/* table tbody tr td:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+} */
+
+table tr td:not(:first-child) {
+    text-align: center;
+}
+  
+div.last-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,7 @@
+2. Když smažu backup nesmaže se v databázi ve Schedule < nevadí, ale je blbost držet tyto data
+
+3. Nějak dodělat dashboard
+
+4. Přidat DataContext na cashovani dat
+
+5. Přidat .env file pro api key
